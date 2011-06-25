@@ -8,8 +8,11 @@ import os, sys
 files = {}
 while 1:
 	for arg in sys.argv[1:]:
+		f = open(arg)
+		cont = f.read()
 		try:
-			if file(arg) != files[arg]:
+			if cont != files[arg]:
+				print arg
 				raise KeyError
 		except KeyError:
 			if arg.endswith(".shpaml"):
@@ -20,5 +23,5 @@ while 1:
 				os.system("coffee -o ../ -c "+arg)
 			else:
 				os.system("mv "+arg+" ../")
-			files[arg] = file(arg)
+			files[arg] = cont
 	

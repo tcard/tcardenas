@@ -14,7 +14,7 @@
   recalc = function(elem, e) {
     var d, dmax;
     d = Math.abs(elem.offset().left + elem.width() / 2 - e.clientX);
-    dmax = 100;
+    dmax = 200;
     return elem.css("opacity", d > dmax ? 0.3 : (-0.7 / dmax) * d + 1);
   };
   document.onmousemove = function(e) {
