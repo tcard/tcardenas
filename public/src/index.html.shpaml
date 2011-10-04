@@ -1,0 +1,17 @@
+<!doctype html>
+
+html
+	head
+		> meta charset=utf-8
+		> link rel=stylesheet type=text/css href=ssc.css
+		title | tcardenas.me
+		<script type="text/javascript" src="jquery-1.6.1.min.js"></script>
+		<script type="text/javascript" src="sj.js"></script>
+	body
+		#tc
+			<span id="char-0">t</span><span id="char-1">c</span><span id="char-2">a</span><span id="char-3">r</span><span id="char-4">d</span><span id="char-5">e</span><span id="char-6">n</span><span id="char-7">a</span><span id="char-8">s</span><span id="char-9">.</span><span id="char-10">m</span><span id="char-11">e</span>
+		
+		ul#info
+			li#info-0 > a href=mailto:toni@tcardenas.me | toni@tcardenas.me
+			li#info-1 | |
+			li#info-2 > a href=http://github.com/tcard | GitHub
