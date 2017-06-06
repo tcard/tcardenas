@@ -23,7 +23,7 @@
       recalc($("#char-" + i), e);
     }
     _results = [];
-    for (i = 0; i <= 2; i++) {
+    for (i = 0; i <= 4; i++) {
       _results.push(recalc($("#info-" + i), e));
     }
     return _results;
